@@ -1,0 +1,32 @@
+.img_box {
+  top: 0%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 72px;
+  height: 72px;
+  position: absolute;
+}
+.title {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 16px;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: #242d52;
+  margin-bottom: 19px;
+}
+.text {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 162%;
+  text-align: center;
+  color: #242d52;
+  opacity: 0.5;
+}
+.Card {
+  position: relative;
+  width: 540px;
+  padding: 60px 40px 40px 40px;
+  background-color: #fafafa;
+}
